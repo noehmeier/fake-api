@@ -1,16 +1,16 @@
 {
   "personen": [
     {
-      "personID": 1,
+      "id": 1,
       "vorname": "Max",
       "nachname": "Mustermann",
       "geburtsdatum": "1985-03-15",
       "todesdatum": null,
       "telefonnummer": "0123456789",
-      "adresseId": 1,
+      "adresse_id": 1,
       "kredite": [
         {
-          "kreditID": 1,
+          "id": 1,
           "kreditbetrag": 10000,
           "startDatum": "2024-01-01",
           "endDatum": "2026-01-01",
@@ -19,17 +19,17 @@
       ]
     },
     {
-      "personID": 2,
+      "id": 2,
       "vorname": "Anna",
       "nachname": "Schmidt",
       "geburtsdatum": "1990-07-22",
       "todesdatum": null,
       "telefonnummer": "0987654321",
-      "adresseId": 2,
+      "adresse_id": 2,
       "kredite": [
         {
-          "kreditID": 2,
-          "kreditbetrag": 15000,
+          "id": 2,
+          "kreditbetrag": 5000,
           "startDatum": "2023-06-01",
           "endDatum": "2025-06-01",
           "status": "offen"
@@ -37,147 +37,221 @@
       ]
     },
     {
-      "personID": 3,
+      "id": 3,
       "vorname": "Lukas",
-      "nachname": "Meyer",
+      "nachname": "Weber",
       "geburtsdatum": "1988-11-30",
       "todesdatum": null,
       "telefonnummer": "0123987456",
-      "adresseId": 3,
+      "adresse_id": 3,
       "kredite": []
     },
     {
-      "personID": 4,
+      "id": 4,
       "vorname": "Sophie",
-      "nachname": "Wagner",
+      "nachname": "Müller",
       "geburtsdatum": "1992-04-18",
       "todesdatum": null,
       "telefonnummer": "0456789123",
-      "adresseId": 4,
+      "adresse_id": 4,
       "kredite": [
         {
-          "kreditID": 3,
-          "kreditbetrag": 20000,
+          "id": 3,
+          "kreditbetrag": 15000,
           "startDatum": "2022-12-01",
-          "endDatum": "2024-12-01",
+          "endDatum": "2027-12-01",
           "status": "offen"
         }
       ]
     },
     {
-      "personID": 5,
-      "vorname": "Felix",
-      "nachname": "Bauer",
-      "geburtsdatum": "1987-09-05",
+      "id": 5,
+      "vorname": "Tim",
+      "nachname": "Becker",
+      "geburtsdatum": "1983-09-05",
       "todesdatum": null,
       "telefonnummer": "0789123456",
-      "adresseId": 5,
+      "adresse_id": 5,
       "kredite": [
         {
-          "kreditID": 4,
-          "kreditbetrag": 5000,
-          "startDatum": "2023-03-01",
-          "endDatum": "2024-03-01",
-          "status": "abgeschlossen"
+          "id": 4,
+          "kreditbetrag": 7500,
+          "startDatum": "2023-03-15",
+          "endDatum": "2025-03-15",
+          "status": "offen"
         }
       ]
     },
     {
-      "personID": 6,
-      "vorname": "Emma",
-      "nachname": "Koch",
+      "id": 6,
+      "vorname": "Laura",
+      "nachname": "Fischer",
       "geburtsdatum": "1995-02-14",
       "todesdatum": null,
       "telefonnummer": "0321654987",
-      "adresseId": 6,
+      "adresse_id": 6,
       "kredite": []
     },
     {
-      "personID": 7,
-      "vorname": "Tim",
-      "nachname": "Hoffmann",
-      "geburtsdatum": "1983-08-27",
+      "id": 7,
+      "vorname": "Felix",
+      "nachname": "Schulz",
+      "geburtsdatum": "1987-06-28",
       "todesdatum": null,
-      "telefonnummer": "0654987321",
-      "adresseId": 7,
+      "telefonnummer": "0654321987",
+      "adresse_id": 7,
       "kredite": [
         {
-          "kreditID": 5,
-          "kreditbetrag": 30000,
-          "startDatum": "2024-02-01",
-          "endDatum": "2027-02-01",
+          "id": 5,
+          "kreditbetrag": 20000,
+          "startDatum": "2021-09-01",
+          "endDatum": "2026-09-01",
           "status": "offen"
         }
       ]
     },
     {
-      "personID": 8,
-      "vorname": "Laura",
-      "nachname": "Schäfer",
-      "geburtsdatum": "1991-12-03",
+      "id": 8,
+      "vorname": "Emma",
+      "nachname": "Koch",
+      "geburtsdatum": "1993-12-10",
+      "todesdatum": null,
+      "telefonnummer": "0987321654",
+      "adresse_id": 8,
+      "kredite": []
+    },
+    {
+      "id": 9,
+      "vorname": "Paul",
+      "nachname": "Wagner",
+      "geburtsdatum": "1986-08-03",
       "todesdatum": null,
       "telefonnummer": "0147258369",
-      "adresseId": 8,
-      "kredite": []
+      "adresse_id": 9,
+      "kredite": [
+        {
+          "id": 6,
+          "kreditbetrag": 12000,
+          "startDatum": "2023-11-15",
+          "endDatum": "2026-11-15",
+          "status": "offen"
+        }
+      ]
     },
     {
-      "personID": 9,
-      "vorname": "Nico",
-      "nachname": "Zimmermann",
-      "geburtsdatum": "1986-06-19",
+      "id": 10,
+      "vorname": "Julia",
+      "nachname": "Hoffmann",
+      "geburtsdatum": "1991-05-20",
       "todesdatum": null,
       "telefonnummer": "0258369147",
-      "adresseId": 9,
+      "adresse_id": 10,
       "kredite": [
         {
-          "kreditID": 6,
-          "kreditbetrag": 12000,
-          "startDatum": "2023-09-01",
-          "endDatum": "2025-09-01",
+          "id": 7,
+          "kreditbetrag": 8000,
+          "startDatum": "2024-02-01",
+          "endDatum": "2026-02-01",
           "status": "offen"
         }
       ]
     },
     {
-      "personID": 10,
-      "vorname": "Lena",
-      "nachname": "Krause",
-      "geburtsdatum": "1993-01-08",
+      "id": 11,
+      "vorname": "Niklas",
+      "nachname": "Richter",
+      "geburtsdatum": "1989-01-25",
       "todesdatum": null,
       "telefonnummer": "0369147258",
-      "adresseId": 10,
-      "kredite": [
-        {
-          "kreditID": 7,
-          "kreditbetrag": 8000,
-          "startDatum": "2023-11-01",
-          "endDatum": "2024-11-01",
-          "status": "offen"
-        }
-      ]
-    },
-    {
-      "personID": 11,
-      "vorname": "Paul",
-      "nachname": "Schulz",
-      "geburtsdatum": "1989-05-25",
-      "todesdatum": null,
-      "telefonnummer": "0741852963",
-      "adresseId": 11,
+      "adresse_id": 11,
       "kredite": []
     },
     {
-      "personID": 12,
-      "vorname": "Julia",
-      "nachname": "Werner",
-      "geburtsdatum": "1994-10-11",
+      "id": 12,
+      "vorname": "Lena",
+      "nachname": "Schäfer",
+      "geburtsdatum": "1994-10-12",
       "todesdatum": null,
-      "telefonnummer": "0852963741",
-      "adresseId": 12,
+      "telefonnummer": "0741852963",
+      "adresse_id": 12,
       "kredite": [
         {
-          "kreditID": 8,
+          "id": 8,
+          "kreditbetrag": 18000,
+          "startDatum": "2022-07-01",
+          "endDatum": "2027-07-01",
+          "status": "offen"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "vorname": "David",
+      "nachname": "Bauer",
+      "geburtsdatum": "1984-03-08",
+      "todesdatum": null,
+      "telefonnummer": "0852963741",
+      "adresse_id": 13,
+      "kredite": [
+        {
+          "id": 9,
+          "kreditbetrag": 6000,
+          "startDatum": "2023-09-15",
+          "endDatum": "2025-09-15",
+          "status": "offen"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "vorname": "Sarah",
+      "nachname": "Wolf",
+      "geburtsdatum": "1996-07-17",
+      "todesdatum": null,
+      "telefonnummer": "0963852741",
+      "adresse_id": 14,
+      "kredite": []
+    },
+    {
+      "id": 15,
+      "vorname": "Tobias",
+      "nachname": "Klein",
+      "geburtsdatum": "1988-12-05",
+      "todesdatum": null,
+      "telefonnummer": "0159753486",
+      "adresse_id": 15,
+      "kredite": [
+        {
+          "id": 10,
           "kreditbetrag": 25000,
+          "startDatum": "2021-05-01",
+          "endDatum": "2026-05-01",
+          "status": "offen"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "vorname": "Lisa",
+      "nachname": "Neumann",
+      "geburtsdatum": "1993-02-28",
+      "todesdatum": null,
+      "telefonnummer": "0267951384",
+      "adresse_id": 16,
+      "kredite": []
+    },
+    {
+      "id": 17,
+      "vorname": "Jan",
+      "nachname": "Krause",
+      "geburtsdatum": "1987-09-14",
+      "todesdatum": null,
+      "telefonnummer": "0375159624",
+      "adresse_id": 17,
+      "kredite": [
+        {
+          "id": 11,
+          "kreditbetrag": 9000,
           "startDatum": "2024-03-01",
           "endDatum": "2026-03-01",
           "status": "offen"
@@ -185,258 +259,192 @@
       ]
     },
     {
-      "personID": 13,
-      "vorname": "David",
-      "nachname": "Lange",
-      "geburtsdatum": "1984-07-09",
+      "id": 18,
+      "vorname": "Melanie",
+      "nachname": "Schwarz",
+      "geburtsdatum": "1992-06-23",
       "todesdatum": null,
-      "telefonnummer": "0963852741",
-      "adresseId": 13,
+      "telefonnummer": "0486273159",
+      "adresse_id": 18,
       "kredite": [
         {
-          "kreditID": 9,
-          "kreditbetrag": 18000,
-          "startDatum": "2023-08-01",
-          "endDatum": "2025-08-01",
+          "id": 12,
+          "kreditbetrag": 13000,
+          "startDatum": "2023-08-15",
+          "endDatum": "2026-08-15",
           "status": "offen"
         }
       ]
     },
     {
-      "personID": 14,
-      "vorname": "Sarah",
-      "nachname": "Huber",
-      "geburtsdatum": "1996-03-28",
-      "todesdatum": null,
-      "telefonnummer": "0159753486",
-      "adresseId": 14,
-      "kredite": []
-    },
-    {
-      "personID": 15,
+      "id": 19,
       "vorname": "Michael",
-      "nachname": "Schmitt",
-      "geburtsdatum": "1982-11-17",
+      "nachname": "Zimmermann",
+      "geburtsdatum": "1985-11-09",
       "todesdatum": null,
-      "telefonnummer": "0267159483",
-      "adresseId": 15,
-      "kredite": [
-        {
-          "kreditID": 10,
-          "kreditbetrag": 40000,
-          "startDatum": "2024-01-15",
-          "endDatum": "2028-01-15",
-          "status": "offen"
-        }
-      ]
-    },
-    {
-      "personID": 16,
-      "vorname": "Lisa",
-      "nachname": "Maier",
-      "geburtsdatum": "1997-08-02",
-      "todesdatum": null,
-      "telefonnummer": "0375951684",
-      "adresseId": 16,
+      "telefonnummer": "0597384261",
+      "adresse_id": 19,
       "kredite": []
     },
     {
-      "personID": 17,
-      "vorname": "Thomas",
-      "nachname": "Wolf",
-      "geburtsdatum": "1981-04-13",
-      "todesdatum": null,
-      "telefonnummer": "0486275931",
-      "adresseId": 17,
-      "kredite": [
-        {
-          "kreditID": 11,
-          "kreditbetrag": 22000,
-          "startDatum": "2023-10-01",
-          "endDatum": "2025-10-01",
-          "status": "offen"
-        }
-      ]
-    },
-    {
-      "personID": 18,
+      "id": 20,
       "vorname": "Nina",
-      "nachname": "Becker",
-      "geburtsdatum": "1998-01-20",
+      "nachname": "Hartmann",
+      "geburtsdatum": "1990-04-01",
       "todesdatum": null,
-      "telefonnummer": "0597386142",
-      "adresseId": 18,
-      "kredite": []
-    },
-    {
-      "personID": 19,
-      "vorname": "Markus",
-      "nachname": "Richter",
-      "geburtsdatum": "1980-09-07",
-      "todesdatum": null,
-      "telefonnummer": "0618497253",
-      "adresseId": 19,
+      "telefonnummer": "0618495732",
+      "adresse_id": 20,
       "kredite": [
         {
-          "kreditID": 12,
-          "kreditbetrag": 35000,
-          "startDatum": "2024-04-01",
-          "endDatum": "2027-04-01",
+          "id": 13,
+          "kreditbetrag": 11000,
+          "startDatum": "2023-12-01",
+          "endDatum": "2026-12-01",
           "status": "offen"
         }
       ]
-    },
-    {
-      "personID": 20,
-      "vorname": "Katharina",
-      "nachname": "Klein",
-      "geburtsdatum": "1999-06-30",
-      "todesdatum": null,
-      "telefonnummer": "0729518463",
-      "adresseId": 20,
-      "kredite": []
     }
   ],
   "adressen": [
     {
-      "adresseID": 1,
+      "id": 1,
       "strasse": "Hauptstraße",
       "hausnummer": 10,
       "plz": 12345,
       "stadt": "Berlin"
     },
     {
-      "adresseID": 2,
+      "id": 2,
       "strasse": "Bahnhofstraße",
       "hausnummer": 5,
       "plz": 23456,
       "stadt": "Hamburg"
     },
     {
-      "adresseID": 3,
+      "id": 3,
       "strasse": "Schulweg",
       "hausnummer": 15,
       "plz": 34567,
       "stadt": "München"
     },
     {
-      "adresseID": 4,
+      "id": 4,
       "strasse": "Gartenstraße",
       "hausnummer": 8,
       "plz": 45678,
       "stadt": "Köln"
     },
     {
-      "adresseID": 5,
+      "id": 5,
       "strasse": "Kirchplatz",
       "hausnummer": 3,
       "plz": 56789,
       "stadt": "Frankfurt"
     },
     {
-      "adresseID": 6,
+      "id": 6,
       "strasse": "Rosenweg",
       "hausnummer": 12,
       "plz": 67890,
       "stadt": "Stuttgart"
     },
     {
-      "adresseID": 7,
-      "strasse": "Lindenallee",
+      "id": 7,
+      "strasse": "Bergstraße",
       "hausnummer": 20,
       "plz": 78901,
       "stadt": "Düsseldorf"
     },
     {
-      "adresseID": 8,
-      "strasse": "Bergstraße",
-      "hausnummer": 7,
+      "id": 8,
+      "strasse": "Marktplatz",
+      "hausnummer": 1,
       "plz": 89012,
       "stadt": "Leipzig"
     },
     {
-      "adresseID": 9,
-      "strasse": "Marktplatz",
-      "hausnummer": 1,
+      "id": 9,
+      "strasse": "Lindenallee",
+      "hausnummer": 7,
       "plz": 90123,
-      "stadt": "Dresden"
-    },
-    {
-      "adresseID": 10,
-      "strasse": "Waldweg",
-      "hausnummer": 25,
-      "plz": 12345,
-      "stadt": "Hannover"
-    },
-    {
-      "adresseID": 11,
-      "strasse": "Sonnenstraße",
-      "hausnummer": 14,
-      "plz": 23456,
-      "stadt": "Nürnberg"
-    },
-    {
-      "adresseID": 12,
-      "strasse": "Blumenweg",
-      "hausnummer": 6,
-      "plz": 34567,
-      "stadt": "Bremen"
-    },
-    {
-      "adresseID": 13,
-      "strasse": "Eichenallee",
-      "hausnummer": 18,
-      "plz": 45678,
-      "stadt": "Essen"
-    },
-    {
-      "adresseID": 14,
-      "strasse": "Seestraße",
-      "hausnummer": 9,
-      "plz": 56789,
       "stadt": "Dortmund"
     },
     {
-      "adresseID": 15,
-      "strasse": "Bachgasse",
-      "hausnummer": 4,
-      "plz": 67890,
+      "id": 10,
+      "strasse": "Poststraße",
+      "hausnummer": 25,
+      "plz": 10234,
+      "stadt": "Essen"
+    },
+    {
+      "id": 11,
+      "strasse": "Eichenweg",
+      "hausnummer": 14,
+      "plz": 11345,
+      "stadt": "Bremen"
+    },
+    {
+      "id": 12,
+      "strasse": "Tannenstraße",
+      "hausnummer": 9,
+      "plz": 12456,
+      "stadt": "Dresden"
+    },
+    {
+      "id": 13,
+      "strasse": "Ahornplatz",
+      "hausnummer": 6,
+      "plz": 13567,
+      "stadt": "Hannover"
+    },
+    {
+      "id": 14,
+      "strasse": "Birkenallee",
+      "hausnummer": 18,
+      "plz": 14678,
+      "stadt": "Nürnberg"
+    },
+    {
+      "id": 15,
+      "strasse": "Buchenweg",
+      "hausnummer": 22,
+      "plz": 15789,
+      "stadt": "Duisburg"
+    },
+    {
+      "id": 16,
+      "strasse": "Ulmenstraße",
+      "hausnummer": 11,
+      "plz": 16890,
       "stadt": "Bochum"
     },
     {
-      "adresseID": 16,
-      "strasse": "Wiesenweg",
-      "hausnummer": 22,
-      "plz": 78901,
+      "id": 17,
+      "strasse": "Eschenplatz",
+      "hausnummer": 4,
+      "plz": 17901,
       "stadt": "Wuppertal"
     },
     {
-      "adresseID": 17,
-      "strasse": "Tannenstraße",
-      "hausnummer": 11,
-      "plz": 89012,
+      "id": 18,
+      "strasse": "Kastanienweg",
+      "hausnummer": 16,
+      "plz": 18012,
       "stadt": "Bielefeld"
     },
     {
-      "adresseID": 18,
-      "strasse": "Ahornweg",
-      "hausnummer": 16,
-      "plz": 90123,
+      "id": 19,
+      "strasse": "Weidenstraße",
+      "hausnummer": 2,
+      "plz": 19123,
       "stadt": "Bonn"
     },
     {
-      "adresseID": 19,
-      "strasse": "Birkenallee",
-      "hausnummer": 2,
-      "plz": 12345,
-      "stadt": "Münster"
-    },
-    {
-      "adresseID": 20,
-      "strasse": "Erlenweg",
+      "id": 20,
+      "strasse": "Erlenallee",
       "hausnummer": 13,
-      "plz": 23456,
-      "stadt": "Karlsruhe"
+      "plz": 20234,
+      "stadt": "Münster"
     }
   ]
 }
