@@ -403,40 +403,6 @@
           "personID": 14
         }
       ]
-    },
-    {
-      "personID": 15,
-      "vorname": "Martin",
-      "nachname": "Richter",
-      "geburtsdatum": "1973-02-25",
-      "todesdatum": null,
-      "telefonnummer": "089-45678098",
-      "adresse": {
-        "adresseID": 15,
-        "strasse": "Landsberger Straße",
-        "hausnummer": 126,
-        "hausnummerzusatz": "h",
-        "plz": "80339",
-        "stadt": "München"
-      },
-      "kredite": [
-        {
-          "kreditID": 20,
-          "kreditbetrag": 28000,
-          "startDatum": "2023-01-10",
-          "endDatum": "2028-01-10",
-          "status": "offen",
-          "personID": 15
-        },
-        {
-          "kreditID": 21,
-          "kreditbetrag": 9000,
-          "startDatum": "2019-09-05",
-          "endDatum": "2022-09-05",
-          "status": "abgeschlossen",
-          "personID": 15
-        }
-      ]
     }
   ]
 }
