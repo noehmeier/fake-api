@@ -1,406 +1,408 @@
-[
-  {
-    "personID": 1,
-    "vorname": "Thomas",
-    "nachname": "Müller",
-    "geburtsdatum": "1985-07-12",
-    "todesdatum": null,
-    "telefonnummer": "089-12345678",
-    "adresse": {
-      "adresseID": 1,
-      "strasse": "Lindwurmstraße",
-      "hausnummer": 23,
-      "hausnummerzusatz": "a",
-      "plz": "80337",
-      "stadt": "München"
-    },
-    "kredite": [
-      {
-        "kreditID": 1,
-        "kreditbetrag": 15000,
-        "startDatum": "2020-03-15",
-        "endDatum": "2025-03-15",
-        "status": "offen",
-        "personID": 1
+{
+  "personen": [
+    {
+      "personID": 1,
+      "vorname": "Thomas",
+      "nachname": "Müller",
+      "geburtsdatum": "1985-07-12",
+      "todesdatum": null,
+      "telefonnummer": "089-12345678",
+      "adresse": {
+        "adresseID": 1,
+        "strasse": "Lindwurmstraße",
+        "hausnummer": 23,
+        "hausnummerzusatz": "a",
+        "plz": "80337",
+        "stadt": "München"
       },
-      {
-        "kreditID": 2,
-        "kreditbetrag": 5000,
-        "startDatum": "2018-08-01",
-        "endDatum": "2023-08-01",
-        "status": "abgeschlossen",
-        "personID": 1
-      }
-    ]
-  },
-  {
-    "personID": 2,
-    "vorname": "Sarah",
-    "nachname": "Schmidt",
-    "geburtsdatum": "1990-02-28",
-    "todesdatum": "2023-11-15",
-    "telefonnummer": "089-87654321",
-    "adresse": {
-      "adresseID": 2,
-      "strasse": "Leopoldstraße",
-      "hausnummer": 45,
-      "hausnummerzusatz": "",
-      "plz": "80802",
-      "stadt": "München"
+      "kredite": [
+        {
+          "kreditID": 1,
+          "kreditbetrag": 15000,
+          "startDatum": "2020-03-15",
+          "endDatum": "2025-03-15",
+          "status": "offen",
+          "personID": 1
+        },
+        {
+          "kreditID": 2,
+          "kreditbetrag": 5000,
+          "startDatum": "2018-08-01",
+          "endDatum": "2023-08-01",
+          "status": "abgeschlossen",
+          "personID": 1
+        }
+      ]
     },
-    "kredite": [
-      {
-        "kreditID": 3,
-        "kreditbetrag": 25000,
-        "startDatum": "2019-05-10",
-        "endDatum": "2024-05-10",
-        "status": "offen",
-        "personID": 2
-      }
-    ]
-  },
-  {
-    "personID": 3,
-    "vorname": "Michael",
-    "nachname": "Weber",
-    "geburtsdatum": "1975-11-03",
-    "todesdatum": null,
-    "telefonnummer": "089-23456789",
-    "adresse": {
-      "adresseID": 3,
-      "strasse": "Isartalstraße",
-      "hausnummer": 67,
-      "hausnummerzusatz": "b",
-      "plz": "81379",
-      "stadt": "München"
-    },
-    "kredite": [
-      {
-        "kreditID": 4,
-        "kreditbetrag": 50000,
-        "startDatum": "2022-01-20",
-        "endDatum": "2032-01-20",
-        "status": "offen",
-        "personID": 3
-      }
-    ]
-  },
-  {
-    "personID": 4,
-    "vorname": "Julia",
-    "nachname": "Fischer",
-    "geburtsdatum": "1988-06-15",
-    "todesdatum": null,
-    "telefonnummer": "089-34567890",
-    "adresse": {
-      "adresseID": 4,
-      "strasse": "Augustenstraße",
-      "hausnummer": 112,
-      "hausnummerzusatz": "",
-      "plz": "80798",
-      "stadt": "München"
-    },
-    "kredite": [
-      {
-        "kreditID": 5,
-        "kreditbetrag": 12000,
-        "startDatum": "2021-08-05",
-        "endDatum": "2024-08-05",
-        "status": "offen",
-        "personID": 4
+    {
+      "personID": 2,
+      "vorname": "Sarah",
+      "nachname": "Schmidt",
+      "geburtsdatum": "1990-02-28",
+      "todesdatum": "2023-11-15",
+      "telefonnummer": "089-87654321",
+      "adresse": {
+        "adresseID": 2,
+        "strasse": "Leopoldstraße",
+        "hausnummer": 45,
+        "hausnummerzusatz": "",
+        "plz": "80802",
+        "stadt": "München"
       },
-      {
-        "kreditID": 6,
-        "kreditbetrag": 8000,
-        "startDatum": "2019-03-12",
-        "endDatum": "2022-03-12",
-        "status": "abgeschlossen",
-        "personID": 4
-      }
-    ]
-  },
-  {
-    "personID": 5,
-    "vorname": "Franziska",
-    "nachname": "von de Tod",
-    "geburtsdatum": "1991-01-01",
-    "todesdatum": null,
-    "telefonnummer": "089-45678901",
-    "adresse": {
-      "adresseID": 5,
-      "strasse": "Höllentalstr.",
-      "hausnummer": 1,
-      "hausnummerzusatz": "",
-      "plz": "80906",
-      "stadt": "München"
+      "kredite": [
+        {
+          "kreditID": 3,
+          "kreditbetrag": 25000,
+          "startDatum": "2019-05-10",
+          "endDatum": "2024-05-10",
+          "status": "offen",
+          "personID": 2
+        }
+      ]
     },
-    "kredite": [
-      {
-        "kreditID": 7,
-        "kreditbetrag": 35000,
-        "startDatum": "2018-11-01",
-        "endDatum": "2028-11-01",
-        "status": "offen",
-        "personID": 5
-      }
-    ]
-  },
-  {
-    "personID": 6,
-    "vorname": "Laura",
-    "nachname": "Becker",
-    "geburtsdatum": "1992-12-05",
-    "todesdatum": null,
-    "telefonnummer": "089-56789012",
-    "adresse": {
-      "adresseID": 6,
-      "strasse": "Humboldtstraße",
-      "hausnummer": 32,
-      "hausnummerzusatz": "",
-      "plz": "81543",
-      "stadt": "München"
-    },
-    "kredite": [
-      {
-        "kreditID": 8,
-        "kreditbetrag": 18000,
-        "startDatum": "2023-02-15",
-        "endDatum": "2026-02-15",
-        "status": "offen",
-        "personID": 6
-      }
-    ]
-  },
-  {
-    "personID": 7,
-    "vorname": "Franz",
-    "nachname": "von Sterben",
-    "geburtsdatum": "1990-01-01",
-    "todesdatum": null,
-    "telefonnummer": "089-67890123",
-    "adresse": {
-      "adresseID": 7,
-      "strasse": "Blumenstr.",
-      "hausnummer": 10,
-      "hausnummerzusatz": "",
-      "plz": "80331",
-      "stadt": "München"
-    },
-    "kredite": [
-      {
-        "kreditID": 9,
-        "kreditbetrag": 22000,
-        "startDatum": "2020-09-10",
-        "endDatum": "2025-09-10",
-        "status": "offen",
-        "personID": 7
+    {
+      "personID": 3,
+      "vorname": "Michael",
+      "nachname": "Weber",
+      "geburtsdatum": "1975-11-03",
+      "todesdatum": null,
+      "telefonnummer": "089-23456789",
+      "adresse": {
+        "adresseID": 3,
+        "strasse": "Isartalstraße",
+        "hausnummer": 67,
+        "hausnummerzusatz": "b",
+        "plz": "81379",
+        "stadt": "München"
       },
-      {
-        "kreditID": 10,
-        "kreditbetrag": 10000,
-        "startDatum": "2017-07-20",
-        "endDatum": "2022-07-20",
-        "status": "abgeschlossen",
-        "personID": 7
-      }
-    ]
-  },
-  {
-    "personID": 8,
-    "vorname": "Stefanie",
-    "nachname": "Koch",
-    "geburtsdatum": "1978-08-11",
-    "todesdatum": "2024-01-21",
-    "telefonnummer": "089-78901234",
-    "adresse": {
-      "adresseID": 8,
-      "strasse": "Schillerstraße",
-      "hausnummer": 28,
-      "hausnummerzusatz": "",
-      "plz": "80336",
-      "stadt": "München"
+      "kredite": [
+        {
+          "kreditID": 4,
+          "kreditbetrag": 50000,
+          "startDatum": "2022-01-20",
+          "endDatum": "2032-01-20",
+          "status": "offen",
+          "personID": 3
+        }
+      ]
     },
-    "kredite": [
-      {
-        "kreditID": 11,
-        "kreditbetrag": 40000,
-        "startDatum": "2019-12-01",
-        "endDatum": "2029-12-01",
-        "status": "offen",
-        "personID": 8
-      }
-    ]
-  },
-  {
-    "personID": 9,
-    "vorname": "Christian",
-    "nachname": "Mayer",
-    "geburtsdatum": "1970-05-29",
-    "todesdatum": null,
-    "telefonnummer": "089-89012345",
-    "adresse": {
-      "adresseID": 9,
-      "strasse": "Prinzregentenstraße",
-      "hausnummer": 74,
-      "hausnummerzusatz": "e",
-      "plz": "81675",
-      "stadt": "München"
-    },
-    "kredite": [
-      {
-        "kreditID": 12,
-        "kreditbetrag": 30000,
-        "startDatum": "2021-04-15",
-        "endDatum": "2031-04-15",
-        "status": "offen",
-        "personID": 9
-      }
-    ]
-  },
-  {
-    "personID": 10,
-    "vorname": "Katrin",
-    "nachname": "Schulz",
-    "geburtsdatum": "1986-01-14",
-    "todesdatum": null,
-    "telefonnummer": "089-90123456",
-    "adresse": {
-      "adresseID": 10,
-      "strasse": "Theresienstraße",
-      "hausnummer": 43,
-      "hausnummerzusatz": "",
-      "plz": "80333",
-      "stadt": "München"
-    },
-    "kredite": [
-      {
-        "kreditID": 13,
-        "kreditbetrag": 15000,
-        "startDatum": "2022-07-01",
-        "endDatum": "2025-07-01",
-        "status": "offen",
-        "personID": 10
+    {
+      "personID": 4,
+      "vorname": "Julia",
+      "nachname": "Fischer",
+      "geburtsdatum": "1988-06-15",
+      "todesdatum": null,
+      "telefonnummer": "089-34567890",
+      "adresse": {
+        "adresseID": 4,
+        "strasse": "Augustenstraße",
+        "hausnummer": 112,
+        "hausnummerzusatz": "",
+        "plz": "80798",
+        "stadt": "München"
       },
-      {
-        "kreditID": 14,
-        "kreditbetrag": 7500,
-        "startDatum": "2020-02-28",
-        "endDatum": "2023-02-28",
-        "status": "abgeschlossen",
-        "personID": 10
-      }
-    ]
-  },
-  {
-    "personID": 11,
-    "vorname": "Daniel",
-    "nachname": "Neumann",
-    "geburtsdatum": "1983-10-07",
-    "todesdatum": null,
-    "telefonnummer": "089-01234567",
-    "adresse": {
-      "adresseID": 11,
-      "strasse": "Maximilianstraße",
-      "hausnummer": 19,
-      "hausnummerzusatz": "f",
-      "plz": "80539",
-      "stadt": "München"
+      "kredite": [
+        {
+          "kreditID": 5,
+          "kreditbetrag": 12000,
+          "startDatum": "2021-08-05",
+          "endDatum": "2024-08-05",
+          "status": "offen",
+          "personID": 4
+        },
+        {
+          "kreditID": 6,
+          "kreditbetrag": 8000,
+          "startDatum": "2019-03-12",
+          "endDatum": "2022-03-12",
+          "status": "abgeschlossen",
+          "personID": 4
+        }
+      ]
     },
-    "kredite": [
-      {
-        "kreditID": 15,
-        "kreditbetrag": 25000,
-        "startDatum": "2021-11-15",
-        "endDatum": "2026-11-15",
-        "status": "offen",
-        "personID": 11
-      }
-    ]
-  },
-  {
-    "personID": 12,
-    "vorname": "Nina",
-    "nachname": "Schwarz",
-    "geburtsdatum": "1991-04-22",
-    "todesdatum": null,
-    "telefonnummer": "089-12345098",
-    "adresse": {
-      "adresseID": 12,
-      "strasse": "Karlsplatz",
-      "hausnummer": 8,
-      "hausnummerzusatz": "",
-      "plz": "80335",
-      "stadt": "München"
-    },
-    "kredite": [
-      {
-        "kreditID": 16,
-        "kreditbetrag": 12000,
-        "startDatum": "2023-03-01",
-        "endDatum": "2025-03-01",
-        "status": "offen",
-        "personID": 12
+    {
+      "personID": 5,
+      "vorname": "Andreas",
+      "nachname": "Wagner",
+      "geburtsdatum": "1965-09-22",
+      "todesdatum": "2022-05-30",
+      "telefonnummer": "089-45678901",
+      "adresse": {
+        "adresseID": 5,
+        "strasse": "Nymphenburger Straße",
+        "hausnummer": 87,
+        "hausnummerzusatz": "c",
+        "plz": "80636",
+        "stadt": "München"
       },
-      {
-        "kreditID": 17,
-        "kreditbetrag": 6000,
-        "startDatum": "2021-06-10",
-        "endDatum": "2023-06-10",
-        "status": "abgeschlossen",
-        "personID": 12
-      }
-    ]
-  },
-  {
-    "personID": 13,
-    "vorname": "Peter",
-    "nachname": "Wolf",
-    "geburtsdatum": "1968-07-30",
-    "todesdatum": "2023-08-12",
-    "telefonnummer": "089-23456098",
-    "adresse": {
-      "adresseID": 13,
-      "strasse": "Fürstenrieder Straße",
-      "hausnummer": 102,
-      "hausnummerzusatz": "g",
-      "plz": "80686",
-      "stadt": "München"
+      "kredite": [
+        {
+          "kreditID": 7,
+          "kreditbetrag": 35000,
+          "startDatum": "2018-11-01",
+          "endDatum": "2028-11-01",
+          "status": "offen",
+          "personID": 5
+        }
+      ]
     },
-    "kredite": [
-      {
-        "kreditID": 18,
-        "kreditbetrag": 45000,
-        "startDatum": "2018-05-20",
-        "endDatum": "2028-05-20",
-        "status": "offen",
-        "personID": 13
-      }
-    ]
-  },
-  {
-    "personID": 14,
-    "vorname": "Test",
-    "nachname": "Sterbedatum",
-    "geburtsdatum": "1980-01-01",
-    "todesdatum": null,
-    "telefonnummer": "089-34567098",
-    "adresse": {
-      "adresseID": 14,
-      "strasse": "Aidenbachstr.",
-      "hausnummer": 22,
-      "hausnummerzusatz": "",
-      "plz": "81379",
-      "stadt": "München"
+    {
+      "personID": 6,
+      "vorname": "Laura",
+      "nachname": "Becker",
+      "geburtsdatum": "1992-12-05",
+      "todesdatum": null,
+      "telefonnummer": "089-56789012",
+      "adresse": {
+        "adresseID": 6,
+        "strasse": "Humboldtstraße",
+        "hausnummer": 32,
+        "hausnummerzusatz": "",
+        "plz": "81543",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 8,
+          "kreditbetrag": 18000,
+          "startDatum": "2023-02-15",
+          "endDatum": "2026-02-15",
+          "status": "offen",
+          "personID": 6
+        }
+      ]
     },
-    "kredite": [
-      {
-        "kreditID": 19,
-        "kreditbetrag": 20000,
-        "startDatum": "2022-08-15",
-        "endDatum": "2027-08-15",
-        "status": "offen",
-        "personID": 14
-      }
-    ]
-  }
-]
+    {
+      "personID": 7,
+      "vorname": "Markus",
+      "nachname": "Hoffmann",
+      "geburtsdatum": "1982-03-17",
+      "todesdatum": null,
+      "telefonnummer": "089-67890123",
+      "adresse": {
+        "adresseID": 7,
+        "strasse": "Goethestraße",
+        "hausnummer": 55,
+        "hausnummerzusatz": "d",
+        "plz": "80336",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 9,
+          "kreditbetrag": 22000,
+          "startDatum": "2020-09-10",
+          "endDatum": "2025-09-10",
+          "status": "offen",
+          "personID": 7
+        },
+        {
+          "kreditID": 10,
+          "kreditbetrag": 10000,
+          "startDatum": "2017-07-20",
+          "endDatum": "2022-07-20",
+          "status": "abgeschlossen",
+          "personID": 7
+        }
+      ]
+    },
+    {
+      "personID": 8,
+      "vorname": "Stefanie",
+      "nachname": "Koch",
+      "geburtsdatum": "1978-08-11",
+      "todesdatum": "2024-01-21",
+      "telefonnummer": "089-78901234",
+      "adresse": {
+        "adresseID": 8,
+        "strasse": "Schillerstraße",
+        "hausnummer": 28,
+        "hausnummerzusatz": "",
+        "plz": "80336",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 11,
+          "kreditbetrag": 40000,
+          "startDatum": "2019-12-01",
+          "endDatum": "2029-12-01",
+          "status": "offen",
+          "personID": 8
+        }
+      ]
+    },
+    {
+      "personID": 9,
+      "vorname": "Christian",
+      "nachname": "Mayer",
+      "geburtsdatum": "1970-05-29",
+      "todesdatum": null,
+      "telefonnummer": "089-89012345",
+      "adresse": {
+        "adresseID": 9,
+        "strasse": "Prinzregentenstraße",
+        "hausnummer": 74,
+        "hausnummerzusatz": "e",
+        "plz": "81675",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 12,
+          "kreditbetrag": 30000,
+          "startDatum": "2021-04-15",
+          "endDatum": "2031-04-15",
+          "status": "offen",
+          "personID": 9
+        }
+      ]
+    },
+    {
+      "personID": 10,
+      "vorname": "Katrin",
+      "nachname": "Schulz",
+      "geburtsdatum": "1986-01-14",
+      "todesdatum": null,
+      "telefonnummer": "089-90123456",
+      "adresse": {
+        "adresseID": 10,
+        "strasse": "Theresienstraße",
+        "hausnummer": 43,
+        "hausnummerzusatz": "",
+        "plz": "80333",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 13,
+          "kreditbetrag": 15000,
+          "startDatum": "2022-07-01",
+          "endDatum": "2025-07-01",
+          "status": "offen",
+          "personID": 10
+        },
+        {
+          "kreditID": 14,
+          "kreditbetrag": 7500,
+          "startDatum": "2020-02-28",
+          "endDatum": "2023-02-28",
+          "status": "abgeschlossen",
+          "personID": 10
+        }
+      ]
+    },
+    {
+      "personID": 11,
+      "vorname": "Daniel",
+      "nachname": "Neumann",
+      "geburtsdatum": "1983-10-07",
+      "todesdatum": null,
+      "telefonnummer": "089-01234567",
+      "adresse": {
+        "adresseID": 11,
+        "strasse": "Maximilianstraße",
+        "hausnummer": 19,
+        "hausnummerzusatz": "f",
+        "plz": "80539",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 15,
+          "kreditbetrag": 25000,
+          "startDatum": "2021-11-15",
+          "endDatum": "2026-11-15",
+          "status": "offen",
+          "personID": 11
+        }
+      ]
+    },
+    {
+      "personID": 12,
+      "vorname": "Nina",
+      "nachname": "Schwarz",
+      "geburtsdatum": "1991-04-22",
+      "todesdatum": null,
+      "telefonnummer": "089-12345098",
+      "adresse": {
+        "adresseID": 12,
+        "strasse": "Karlsplatz",
+        "hausnummer": 8,
+        "hausnummerzusatz": "",
+        "plz": "80335",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 16,
+          "kreditbetrag": 12000,
+          "startDatum": "2023-03-01",
+          "endDatum": "2025-03-01",
+          "status": "offen",
+          "personID": 12
+        },
+        {
+          "kreditID": 17,
+          "kreditbetrag": 6000,
+          "startDatum": "2021-06-10",
+          "endDatum": "2023-06-10",
+          "status": "abgeschlossen",
+          "personID": 12
+        }
+      ]
+    },
+    {
+      "personID": 13,
+      "vorname": "Peter",
+      "nachname": "Wolf",
+      "geburtsdatum": "1968-07-30",
+      "todesdatum": "2023-08-12",
+      "telefonnummer": "089-23456098",
+      "adresse": {
+        "adresseID": 13,
+        "strasse": "Fürstenrieder Straße",
+        "hausnummer": 102,
+        "hausnummerzusatz": "g",
+        "plz": "80686",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 18,
+          "kreditbetrag": 45000,
+          "startDatum": "2018-05-20",
+          "endDatum": "2028-05-20",
+          "status": "offen",
+          "personID": 13
+        }
+      ]
+    },
+    {
+      "personID": 14,
+      "vorname": "Sandra",
+      "nachname": "Hofmann",
+      "geburtsdatum": "1987-12-18",
+      "todesdatum": null,
+      "telefonnummer": "089-34567098",
+      "adresse": {
+        "adresseID": 14,
+        "strasse": "Sendlinger Straße",
+        "hausnummer": 57,
+        "hausnummerzusatz": "",
+        "plz": "80331",
+        "stadt": "München"
+      },
+      "kredite": [
+        {
+          "kreditID": 19,
+          "kreditbetrag": 20000,
+          "startDatum": "2022-08-15",
+          "endDatum": "2027-08-15",
+          "status": "offen",
+          "personID": 14
+        }
+      ]
+    }
+  ]
+}
