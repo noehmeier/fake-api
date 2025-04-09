@@ -125,12 +125,12 @@
       "vorname": "Franziska",
       "nachname": "von de Tod",
       "geburtsdatum": "1991-01-01",
-      "todesdatum": "2022-05-30",
+      "todesdatum": null,
       "telefonnummer": "089-45678901",
       "adresse": {
         "adresseID": 5,
         "strasse": "Höllentalstr.",
-        "hausnummer": 87,
+        "hausnummer": 1,
         "hausnummerzusatz": "",
         "plz": "80906",
         "stadt": "München"
@@ -174,17 +174,17 @@
     },
     {
       "personID": 7,
-      "vorname": "Markus",
-      "nachname": "Hoffmann",
-      "geburtsdatum": "1982-03-17",
+      "vorname": "Franz",
+      "nachname": "von Sterben",
+      "geburtsdatum": "1990-01-01",
       "todesdatum": null,
       "telefonnummer": "089-67890123",
       "adresse": {
         "adresseID": 7,
-        "strasse": "Goethestraße",
-        "hausnummer": 55,
-        "hausnummerzusatz": "d",
-        "plz": "80336",
+        "strasse": "Blumenstr.",
+        "hausnummer": 10,
+        "hausnummerzusatz": "",
+        "plz": "80331",
         "stadt": "München"
       },
       "kredite": [
