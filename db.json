@@ -380,15 +380,15 @@
     },
     {
       "personID": 14,
-      "vorname": "Sandra",
-      "nachname": "Hofmann",
-      "geburtsdatum": "1987-12-18",
+      "vorname": "Test",
+      "nachname": "Sterbedatum",
+      "geburtsdatum": "1980-01-01",
       "todesdatum": null,
       "telefonnummer": "089-34567098",
       "adresse": {
         "adresseID": 14,
-        "strasse": "Sendlinger Straße",
-        "hausnummer": 57,
+        "strasse": "Aidenbachstr.",
+        "hausnummer": 22,
         "hausnummerzusatz": "",
         "plz": "80331",
         "stadt": "München"
