@@ -122,17 +122,17 @@
     },
     {
       "personID": 5,
-      "vorname": "Andreas",
-      "nachname": "Wagner",
-      "geburtsdatum": "1965-09-22",
+      "vorname": "Franziska",
+      "nachname": "von de Tod",
+      "geburtsdatum": "1991-01-01",
       "todesdatum": "2022-05-30",
       "telefonnummer": "089-45678901",
       "adresse": {
         "adresseID": 5,
-        "strasse": "Nymphenburger Straße",
+        "strasse": "Höllentalstr.",
         "hausnummer": 87,
-        "hausnummerzusatz": "c",
-        "plz": "80636",
+        "hausnummerzusatz": "",
+        "plz": "80906",
         "stadt": "München"
       },
       "kredite": [
